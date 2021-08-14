@@ -28,3 +28,13 @@ D:\Lavoro\WinForms\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResour
 D:\Lavoro\WinForms\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.CoreCompileInputs.cache
 D:\Lavoro\WinForms\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
 D:\Lavoro\WinForms\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\bin\Debug\MyNotepad.exe
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\bin\Debug\MyNotepad.pdb
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.csproj.AssemblyReference.cache
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.myBloccoNote.resources
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.Vai_alla_riga.resources
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.cache
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.csproj.CoreCompileInputs.cache
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.exe
+D:\Lavoro\WinForms\Nuova cartella\idk\MyNotepad\obj\Debug\MyNotepad.pdb

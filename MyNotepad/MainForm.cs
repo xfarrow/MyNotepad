@@ -1,12 +1,7 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
-
-
-using System.Collections;
 using System.Linq;
 
 namespace MyNotepad
@@ -59,8 +54,6 @@ namespace MyNotepad
             {
                 // Nothing happens
             }
-
-
         }
 
         // Pulsante "salva con nome"
@@ -135,9 +128,8 @@ namespace MyNotepad
         // Mostra o nascondi barra di stato
         private void checkbox_barra_di_stato_Click(object sender, EventArgs e)
         {
-            if (barra_di_stato.Visible == true) barra_di_stato.Visible = false;
+            if (barra_di_stato.Visible) barra_di_stato.Visible = false;
             else barra_di_stato.Visible = true;
-
         }
 
         private void selezionaTuttoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -317,15 +309,15 @@ namespace MyNotepad
 
         public void vaiARigo(int rigo)
         {
-            int indice = testo_notepad.GetFirstCharIndexFromLine(rigo - 1); //(gli umani contano da 1)
             try
             {
+                int indice = testo_notepad.GetFirstCharIndexFromLine(rigo - 1); //(gli umani contano da 1)
                 testo_notepad.Select(indice, 0);
                 testo_notepad.ScrollToCaret();
             }
             catch (ArgumentOutOfRangeException)
             {
-                MessageBox.Show("Numero di riga maggiore del numero di righe totali");
+                MessageBox.Show("Numero di riga non valido");
             }
         }
 
